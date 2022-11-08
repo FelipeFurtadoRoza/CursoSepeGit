@@ -1,9 +1,9 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-    background: hsla(282, 58%, 47%, 1);
-    background: linear-gradient(90deg, hsla(282, 58%, 47%, 1) 0%, hsla(210, 80%, 29%, 1) 100%);
+    background: rgb(209, 120, 36);
+    background: linear-gradient(90deg, rgb(168, 189, 50) 0%, rgb(185, 14, 100) 100%);
 }
 
 h1 {
@@ -22,7 +22,6 @@ h1 {
 
 .event {
     width: 550px;
-    border-radius: 10px;
     margin: 2.5% 2.5% 2.5% 2.5%;
     background-color: rgb(225, 225, 225);
 }
@@ -64,7 +63,6 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: linear-gradient(90deg, hsla(167, 57%, 48%, 1) 0%, hsla(112, 72%, 62%, 1) 100%);
     border: none;
-    border-radius: 10px;
     transition: 0.5s;
 }
 
